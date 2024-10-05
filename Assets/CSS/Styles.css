@@ -1,0 +1,171 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 10em;
+    background-color: black;
+    align-items: center;
+    /* Alinha o conteúdo verticalmente */
+}
+
+#cabecalho {
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#fotoENome {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#fotoENome img {
+    width: 7em;
+}
+
+#fotoENome h3 {
+    color: white;
+    font-size: 2em;
+
+}
+
+#hub {
+    display: flex;
+    gap: 1.5em;
+}
+
+
+#hub a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+
+
+
+#Início h2 {
+    padding-top: 5em;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+}
+
+#Início h3 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-top: 2em;
+    font-size: 2em;
+    width: 60%;
+}
+
+#Sobre h2 {
+    padding-top: 4em;
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+}
+
+#Sobre h3 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-top: 4em;
+    font-size: 2em;
+    width: 70%;
+}
+
+#Carreira h2 {
+    padding-top: 3.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#trabalho {
+    display: flex;
+    padding-top: 4em;
+    font-size: 2em;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#trabalho a {
+    text-decoration: underline;
+    color: black;
+}
+
+#trabalho a:hover {
+    transition: 1s;
+    font-size: 1.08em;
+    color: darkslategray;
+}
+
+#Projetos h2 {
+    padding-top: 3.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#projetosTodos {
+    display: flex;
+    padding-top: 3em;
+    font-size: 2em;
+    text-align: center;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+}
+
+#linksProjetos h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#linksProjetos ul {
+    padding-top: 7em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+}
+
+#linksProjetos a {
+    font-size: 2em;
+    padding-left: 2.6em;
+    text-decoration: underline;
+    color: black;
+}
+
+#Contato h3 {
+    padding-top: 3.5em;
+    font-size: 3em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}

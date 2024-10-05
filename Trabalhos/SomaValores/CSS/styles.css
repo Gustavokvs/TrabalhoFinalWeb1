@@ -1,0 +1,12 @@
+.insiraValores {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+
+}
+
+.valorDeA{
+    margin-right: 1em;
+}

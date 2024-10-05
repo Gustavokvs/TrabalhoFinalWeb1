@@ -1,0 +1,121 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 10em;
+    background-color: black;
+    align-items: center;
+    /* Alinha o conteúdo verticalmente */
+}
+
+#cabecalho {
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#fotoENome {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#fotoENome img {
+    width: 7em;
+}
+
+#fotoENome h3 {
+    color: white;
+    font-size: 2em;
+
+}
+
+#hub {
+    display: flex;
+    gap: 1.5em;
+}
+
+
+#hub a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
+
+form {
+    max-width: 60em;
+    padding: 0.5em;
+    background-color: white;
+    margin: auto;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7em;
+    margin: auto;
+    justify-content: center;
+    max-width: 40em;
+    /* Aumentei o tamanho máximo do formulário */
+    gap: 1.5em;
+    /* Espaçamento entre os campos */
+}
+
+.field-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    /* Espaço entre label e input */
+}
+
+label {
+    text-align: left;
+    font-size: 1.1em;
+    min-width: 3em;
+    /* Define um mínimo para a largura da label */
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    /* O input agora ocupa toda a largura restante */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Garante que o padding não quebre o layout */
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+button {
+    margin-left: 60em;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 8em;
+    padding: 1.5em;
+    background-color: rgba(1, 4, 1, 0.99);
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
